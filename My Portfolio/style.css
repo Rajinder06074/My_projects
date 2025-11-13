@@ -1,0 +1,39 @@
+/* Custom CSS for Rajinder's Portfolio */
+
+/* Define CSS Variables for primary color consistency */
+:root {
+    --primary-color: #3b82f6; /* Blue 500 */
+}
+
+/* Custom utility classes to use CSS variables within Tailwind-styled HTML */
+.text-primary { color: var(--primary-color); }
+.bg-primary { background-color: var(--primary-color); }
+.hover\:bg-primary-dark:hover { background-color: #2563eb; } /* Blue 600 */
+
+/* Global body styling */
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f7f9fc; /* Very light, off-white background */
+    color: #1f2937; /* Dark gray text */
+}
+
+/* Styling for section headings */
+.section-heading {
+    border-left: 4px solid var(--primary-color);
+    padding-left: 1rem;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+/* Base style for project cards */
+.project-card {
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1);
+}
+
+/* Hover effects for project cards */
+.project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -4px rgba(0, 0, 0, 0.1);
+    border-color: var(--primary-color);
+}

@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rajinder - Software Developer Portfolio</title>
+    <!-- Load Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Load Lucide Icons for aesthetic vectors -->
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    
+    <!-- Link to external custom CSS file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="antialiased min-h-screen">
+
+    <!-- Header & Navigation -->
+    <header class="sticky top-0 z-50 bg-white shadow-md">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
+            <a href="#" class="text-2xl font-extrabold text-primary tracking-wider">
+                RJ
+            </a>
+            <nav class="hidden md:flex space-x-8">
+                <a href="#about" class="text-gray-600 hover:text-primary transition duration-150">About</a>
+                <a href="#projects" class="text-gray-600 hover:text-primary transition duration-150">Projects</a>
+                <a href="#contact" class="text-gray-600 hover:text-primary transition duration-150">Contact</a>
+            </nav>
+            <div class="flex items-center space-x-4">
+                <!-- GitHub Icon Link -->
+                <a href="https://github.com/Rajinder06074" target="_blank" class="text-gray-600 hover:text-primary transition duration-150" aria-label="GitHub Profile">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-github"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.2c3.45-.66 7.14-1.55 7.14-7.53A6.12 6.12 0 0 0 22 5.7c-.55-1.56-1.92-2.22-3.47-2.34A5.63 5.63 0 0 0 12 3.82a5.63 5.63 0 0 0-6.53-2.33C3.92 3.48 2.55 4.14 2 5.7a6.12 6.12 0 0 0-.15 4.35c0 5.98 3.69 6.87 7.14 7.53a4.8 4.8 0 0 0-1 3.2v4"/></svg>
+                </a>
+                <!-- LinkedIn Icon Link -->
+                <a href="https://www.linkedin.com/in/rajinder-kamboj-6b6932394/" target="_blank" class="text-gray-600 hover:text-primary transition duration-150" aria-label="LinkedIn Profile">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-linkedin"><path d="M16 8a6 6 0 0 0-6 6v7h4v-7a2 2 0 1 1 4 0v7h4v-7a6 6 0 0 0-6-6z"/><rect width="4" height="12" x="2" y="9"/><circle cx="4" cy="4" r="2"/></svg>
+                </a>
+                <!-- Mobile Menu Button (Optional, not needed for fixed links) -->
+            </div>
+        </div>
+    </header>
+
+    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 lg:py-24">
+
+        <!-- 1. Hero Section -->
+        <section id="hero" class="mb-24 lg:flex lg:items-center lg:space-x-12">
+            <div class="lg:w-2/3">
+                <p class="text-xl text-gray-500 mb-2">Hello, I'm</p>
+                <h1 class="text-5xl sm:text-7xl font-extrabold leading-tight mb-4">
+                    <span class="block text-gray-800">Rajinder</span>
+                    <span class="block text-primary">Software Developer</span>
+                </h1>
+                <p class="text-lg text-gray-600 max-w-xl">
+                    Crafting beautiful and functional digital experiences. I specialize in turning complex problems into elegant, user-friendly solutions across the full software stack.
+                </p>
+                <a href="#projects" class="mt-8 inline-block px-8 py-3 bg-primary text-white font-semibold rounded-lg shadow-lg hover:bg-primary-dark transition duration-300">
+                    View My Work
+                </a>
+            </div>
+            <div class="lg:w-1/3 mt-10 lg:mt-0 flex justify-center lg:justify-end">
+                <!-- Profile Picture Placeholder -->
+                <img src="my pic.jpg" alt="Your Profile Picture" class="w-64 h-64 object-cover rounded-full border-4 border-primary shadow-xl">
+            </div>
+        </section>
+
+        <!-- 2. About Me Section -->
+        <section id="about" class="py-16 mb-24">
+            <h2 class="section-heading mb-10 text-gray-800">About Me</h2>
+
+            <div class="bg-white p-8 rounded-xl shadow-lg border border-gray-200">
+                <h3 class="text-3xl font-bold mb-4 text-primary">The Art and Logic of Software</h3>
+                <p class="text-lg text-gray-700 leading-relaxed space-y-4">
+                    <p>My journey into web development began with a fascination for how simple lines of code can create intricate, interactive digital worlds. Web development, at its core, is the art of balancing aesthetics and logic, ensuring a user interface is intuitive while the underlying system is robust and scalable.</p>
+                    <p>Software development is more than just coding; it's a discipline of problem-solving. Every feature, every bug fix, and every architectural decision is an opportunity to learn and optimize. I believe strongly in the principles of clean code, where maintainability and readability are paramount. This dedication ensures that the software I build can grow and adapt to future demands without collapsing under its own complexity.</p>
+                    <p>My focus spans both front-end and back-end ecosystems. On the front-end, I am passionate about crafting pixel-perfect, accessible user experiences using modern tools and responsive design techniques. The speed and interactivity of a modern web application are what truly engage users, and I strive to deliver performance without compromise. </p>
+                    <p>Simultaneously, I recognize that a great user experience requires a solid, efficient back-end foundation. Whether it's designing REST APIs, managing database structures, or optimizing server performance, I am committed to building the "engine" that powers the application efficiently. This holistic approach to the full stack allows me to see the project from end-to-end, ensuring cohesive and elegant solutions.</p>
+                    <p>In a field that evolves daily, continuous learning is non-negotiable. I am constantly exploring new frameworks, design patterns, and cloud technologies to stay ahead of the curve, always seeking the best tool for the job. This curiosity drives me to tackle challenging projects and push the boundaries of what is possible on the web.</p>
+                </p>
+            </div>
+        </section>
+
+        <!-- 3. Projects Section -->
+        <section id="projects" class="py-16 mb-24">
+            <h2 class="section-heading mb-12 text-gray-800">My Key Projects</h2>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+
+                <!-- Project Card 1: Currency Converter -->
+                <div class="project-card bg-white p-6 rounded-xl border-t-4 border-primary hover:border-b-4">
+                    <div class="text-4xl text-primary mb-3">
+                        <span role="img" aria-label="Money Bag">💰</span>
+                    </div>
+                    <h3 class="text-2xl font-semibold mb-2 text-gray-900">Currency Converter</h3>
+                    <p class="text-gray-600 mb-4">A practical web utility built with JavaScript to fetch real-time exchange rates and perform accurate currency conversions for global users.</p>
+                    <a href="http://127.0.0.1:5500/Currency%20Converter/index.html" class="text-primary hover:underline font-medium flex items-center">
+                        View Project
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right ml-1"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+                    </a>
+                </div>
+
+                <!-- Project Card 2: Tic Tac Toe -->
+                <div class="project-card bg-white p-6 rounded-xl border-t-4 border-primary hover:border-b-4">
+                    <div class="text-4xl text-primary mb-3">
+                        <span role="img" aria-label="Game Board">🕹️</span>
+                    </div>
+                    <h3 class="text-2xl font-semibold mb-2 text-gray-900">Classic Tic Tac Toe</h3>
+                    <p class="text-gray-600 mb-4">An interactive, two-player game demonstrating DOM manipulation and game logic implementation using pure JavaScript.</p>
+                    <a href="http://127.0.0.1:5500/Tic%20tac%20toe/index.html" class="text-primary hover:underline font-medium flex items-center">
+                        View Project
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right ml-1"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+                    </a>
+                </div>
+
+                <!-- Project Card 3: Stone Paper Scissor -->
+                <div class="project-card bg-white p-6 rounded-xl border-t-4 border-primary hover:border-b-4">
+                    <div class="text-4xl text-primary mb-3">
+                        <span role="img" aria-label="Fist">✊</span>
+                    </div>
+                    <h3 class="text-2xl font-semibold mb-2 text-gray-900">Rock Paper Scissors</h3>
+                    <p class="text-gray-600 mb-4">A fun, single-player game against a computer opponent, showcasing conditional logic and random generation in JS.</p>
+                    <a href="http://127.0.0.1:5500/Rock%20paper%20scissor/index.html" class="text-primary hover:underline font-medium flex items-center">
+                        View Project
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right ml-1"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+                    </a>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- 4. Contact/Call to Action Section -->
+        <section id="contact" class="py-16 text-center bg-white rounded-xl shadow-inner border border-gray-200">
+            <h2 class="text-3xl font-bold mb-4 text-gray-800">Let's Build Something Great.</h2>
+            <p class="text-lg text-gray-600 mb-8 max-w-2xl mx-auto">
+                I'm currently seeking new opportunities and challenges in software development. Feel free to connect via the links above or send me an email.
+            </p>
+            <a href="mailto:rajinder06074@gmail.com" class="inline-block px-10 py-4 bg-gray-800 text-white font-semibold rounded-lg shadow-xl hover:bg-gray-700 transition duration-300">
+                Email Me
+            </a>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8 mt-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-sm">
+            <p>&copy; <span id="current-year"></span> Rajinder. All rights reserved.</p>
+            <p class="mt-2">Designed and built with <span class="text-primary font-bold">HTML, Tailwind CSS, and JavaScript</span>.</p>
+        </div>
+    </footer>
+
+    <!-- Link to external JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>
